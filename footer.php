@@ -43,7 +43,7 @@
             <div class="footer-bottom-content-display">
                 <div class="bottom-footer-text-container">
                     <p class="bottom-footer-font">Copyright © 2021 Our Towns - All Rights Reserved</p>
-                    <span><a class ="privacy-policy" href="#" target="_blank">Privacy Policy</a></span>
+                    <span class="span"><a class ="privacy-policy" href="#" target="_blank">Privacy Policy</a></span>
                 </div>
             </div> <!--Footer Bottom -->
         </div> <!--Footer Bottom-->

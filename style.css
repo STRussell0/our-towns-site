@@ -1038,7 +1038,7 @@ body {
     width: 556px;
     font-family: "PT Serif", serif;
     color: #E3E9EE;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 0;
     line-height: 175%;
 }
@@ -1066,11 +1066,11 @@ body {
 
 .bottom-footer-font {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
 	margin: none;	
 }
 
-span {
+.span {
     margin-left: 16px;
     display: flex;
     align-items: center;
@@ -1137,4 +1137,26 @@ span {
     .bottom-footer-font {
         font-size: 14px;
     }
+}
+
+.contact-border input {
+	border: 1px solid #00ABDF !important;
+}
+
+.wpforms-form button[type=submit] {
+	border: 2px solid #EF413D !important;
+	background-color: transparent !important;
+	font-family: "Lato", sans-serif !important;
+	font-style: normal !important;
+	font-weight: 900 !important;
+	font-size: 22px !important;
+	line-height: 100% !important;
+	color: #EF413D !important;
+	text-transform: uppercase !important;
+	padding: 15px 55px !important;
+}
+
+.wpforms-submit-container {
+	justify-content: center;
+	display: flex;
 }

@@ -20,9 +20,26 @@ get_header();
 		<?php
 		while ( have_posts() ) :
 			the_post();
+			?>
+		    <div class="container">
+        <div class="row">
+            <div class="connect col-6 d-flex justify-content-center p-5">
+                <h1>CONNECT WITH US</h1>
 
-			get_template_part( 'template-parts/content', 'page' );
+            </div>
+        </div>
 
+    </div>
+	<div class="container">
+        <div class="row ourtowns d-flex justify-content-center">
+            <div class="col-8">
+                <?php the_content(); ?>
+            </div>
+        </div>
+    </div>
+
+			<!-- get_template_part( 'template-parts/content', 'page' ); -->
+<?php
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
