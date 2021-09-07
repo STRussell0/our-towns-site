@@ -1139,7 +1139,7 @@ body {
     }
 }
 
-.contact-border input {
+.contact-border input, .contact-border textarea {
 	border: 1px solid #00ABDF !important;
 }
 
@@ -1160,3 +1160,5 @@ body {
 	justify-content: center;
 	display: flex;
 }
+
+
