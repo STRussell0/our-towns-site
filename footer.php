@@ -23,7 +23,10 @@
                 </div>
 
                 <div class="sc-signup">
-                    Insert input field and button here
+                    <div class="sc-signup-container">
+                        <input type="email" placeholder="Please enter your email" id="email">
+                        <input type="submit" value="SIGN UP" id="button">
+                    </div>
                 </div>
 
             </div> <!--Child 1-->
