@@ -1210,8 +1210,10 @@ body {
 
 
 
-.contact-border input, .contact-border textarea {
+.contact-border input {
 	border: 1px solid #00ABDF !important;
+	height: 60px !important;
+	
 }
 
 .wpforms-form button[type=submit] {
@@ -1230,6 +1232,26 @@ body {
 .wpforms-submit-container {
 	justify-content: center;
 	display: flex;
+
+}
+
+.contact-border textarea {
+	border: 1px solid #00ABDF !important;
+	height: 120px !important;
+} 
+
+.div.wpforms-container-full .wpforms-form input[type=checkbox]:checked:after {
+	content: "" !important;
+    background-image: url(images/checkmark.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: absolute !important;
+    top: -10px !important;
+    width: 50px !important;
+    height: 40px !important;
+    color: #EF413D !important;
+
+
 }
 
 
