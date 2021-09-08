@@ -1010,6 +1010,33 @@ textarea {
     align-items: center;
 }
 
+.sc-signup-container {
+	display: flex;
+	width: 450px;
+	justify-content: space-between;
+}
+
+#email {
+	width: 311px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 0px;
+	font-family: "Lato", sans-serif;
+	color: #8DA8BA;
+	padding-left: 16px;
+	margin-right: 6px;
+}
+
+#button {
+	width: 145px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 0px;
+	font-family: "Lato", sans-serif;
+	padding: 14px;
+}
+
 /* Middle footer section */
 
 body {
@@ -1083,7 +1110,48 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 1400px) {
+    .footer-font {
+        width: 400px;
+    }
+
+    .bottom-footer-font {
+        font-size: 14px;
+    }
+
+	.sc-signup-container {
+		width: 370px;
+	}
+
+	#email {
+		width: 250px;
+		margin-right: 0px;
+	}
+
+	#button {
+		width: 110px;
+	}
+}
+
 @media screen and (max-width: 992px) {
+
+	.sc-signup-container {
+		flex-direction: column;
+		width: 310px;
+	}
+
+	#email {
+		width: 100%;
+		margin-right: 0px;
+		height: 50px;
+		margin-bottom: 17px;
+	}
+
+	#button {
+		width: 100%;
+		height: 50px;
+	}
+
     .stay-connected {
         height: 276px;
     }
@@ -1125,15 +1193,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .footer-font {
-        width: 400px;
-    }
 
-    .bottom-footer-font {
-        font-size: 14px;
-    }
-}
 
 .contact-border input, .contact-border textarea {
 	border: 1px solid #00ABDF !important;
