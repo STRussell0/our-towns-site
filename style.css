@@ -647,6 +647,9 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
+header#masthead {
+    background:#222;
+}
 .main-navigation {
 	display: block;
 	width: 100%;
