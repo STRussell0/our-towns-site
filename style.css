@@ -1128,6 +1128,128 @@ body {
     color: white;
 }
 
+.contact-border input {
+	border: 1px solid #00ABDF !important;
+	height: 60px !important;
+	
+}
+
+.wpforms-form button[type=submit] {
+	border: 2px solid #EF413D !important;
+	background-color: transparent !important;
+	font-family: "Lato", sans-serif !important;
+	font-style: normal !important;
+	font-weight: 900 !important;
+	font-size: 22px !important;
+	line-height: 100% !important;
+	color: #EF413D !important;
+	text-transform: uppercase !important;
+	padding: 15px 55px !important;
+}
+
+.wpforms-submit-container {
+	justify-content: center;
+	display: flex;
+
+}
+
+.contact-border textarea {
+	border: 1px solid #00ABDF !important;
+	height: 120px !important;
+} 
+
+.div.wpforms-container-full .wpforms-form input[type=checkbox]:checked:after {
+	content: "" !important;
+    background-image: url(images/checkmark.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: absolute !important;
+    top: -10px !important;
+    width: 50px !important;
+    height: 40px !important;
+    color: #EF413D !important;
+
+
+}
+
+/* Home Page Styles  */
+
+.homepage {
+	max-width: 1392px;
+	position: relative;
+	margin-top: 75px;
+	width: 100%;
+}
+
+.banner {
+	background-image: url('./images/banner-1.png');
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 504px;
+}
+
+.banner-2 {
+	background-image: url('./images/banner-2.png');
+	padding: 67px 100px;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.banner-title {
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	font-size: 59px;
+	width: 37%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: black;
+	line-height: 100%;
+}
+
+.yellow {
+	color: #FFDE40;
+}
+
+.banner-pgraph {
+	width: 390px;
+	font-size: 20px;
+	font-family: "PT Serif", serif;
+	line-height: 145%;
+}
+
+.mobile-banner {
+	color: black;
+	width: 100%;
+}
+
+.mobile-banner-image {
+	background-image: url('./images/banner-1.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 243px;
+	position: relative;
+}
+
+.triangle {
+	position: absolute;
+	bottom: 0;
+	left: 44%;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+	.banner {
+		height: 450px;
+	}
+}
+
 @media screen and (max-width: 1400px) {
     .footer-font {
         width: 400px;
@@ -1148,6 +1270,36 @@ body {
 
 	#button {
 		width: 110px;
+	}
+
+	.banner {
+		height: 400px;
+	}
+
+	.banner-title {
+		font-size: 36px;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.banner {
+		height: 320px;
+	}
+
+	.banner-2 {
+		padding: 33px 50px;
+		background-size: 550px 400px;
+	}
+
+	.banner-title {
+		font-size: 30px;
+		width: 250px;
+	}
+
+	.banner-pgraph {
+		width: 300px;
+		font-size: 16px;
 	}
 }
 
@@ -1211,50 +1363,14 @@ body {
     }
 }
 
-
-
-.contact-border input {
-	border: 1px solid #00ABDF !important;
-	height: 60px !important;
-	
+@media screen and (min-width: 769px) {
+	.mobile-banner {
+		display: none;
+	}
 }
 
-.wpforms-form button[type=submit] {
-	border: 2px solid #EF413D !important;
-	background-color: transparent !important;
-	font-family: "Lato", sans-serif !important;
-	font-style: normal !important;
-	font-weight: 900 !important;
-	font-size: 22px !important;
-	line-height: 100% !important;
-	color: #EF413D !important;
-	text-transform: uppercase !important;
-	padding: 15px 55px !important;
+@media screen and (max-width: 768px) {
+	.banner {
+		display: none;
+	}
 }
-
-.wpforms-submit-container {
-	justify-content: center;
-	display: flex;
-
-}
-
-.contact-border textarea {
-	border: 1px solid #00ABDF !important;
-	height: 120px !important;
-} 
-
-.div.wpforms-container-full .wpforms-form input[type=checkbox]:checked:after {
-	content: "" !important;
-    background-image: url(images/checkmark.png) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    position: absolute !important;
-    top: -10px !important;
-    width: 50px !important;
-    height: 40px !important;
-    color: #EF413D !important;
-
-
-}
-
-
